@@ -21,6 +21,7 @@ export default function Produtos() {
                             <img src={sandalia1} alt='sandalia' />
                             <span className='badge-venda'>Mais Vendidos</span>
                         </div>
+
                         <div className='card-info'>
                             <h3>Sandalia de couro</h3>
                             <p className='preco'>R$349,90</p>
@@ -73,6 +74,7 @@ export default function Produtos() {
                         <div className='card-image'>
                             <img src={note} alt='sandalia' />
                         </div>
+                        
                         <div className='card-info'>
                             <h3>Porta Notebook</h3>
                             <p className='preco'>R$269,90</p>
@@ -82,9 +84,7 @@ export default function Produtos() {
 
 
                 </div>
-
             </div>
-
         </section>
-    )
+    );
 }
